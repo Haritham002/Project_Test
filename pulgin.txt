@@ -1,0 +1,192 @@
+--Quick Start (https://www.zaproxy.org/docs/desktop/addons/quick-start/)
+The Quick Start tab provides you with an easy way to quickly test a web application.
+-Automated Scan (https://www.zaproxy.org/docs/desktop/addons/quick-start/#automated-scan)
+   URL to attack (https://www.zaproxy.org/docs/desktop/addons/quick-start/#url-to-attack)
+   Use traditional spider (https://www.zaproxy.org/docs/desktop/addons/quick-start/#use-traditional-spider)
+   Use ajax spider (https://www.zaproxy.org/docs/desktop/addons/quick-start/#use-ajax-spider)
+-Manual Explore (https://www.zaproxy.org/docs/desktop/addons/quick-start/#manual-explore)
+  URL to explore (https://www.zaproxy.org/docs/desktop/addons/quick-start/#url-to-explore)
+  Enable HUD (https://www.zaproxy.org/docs/desktop/addons/quick-start/#enable-hud)
+
+--Regular Expression Tester (https://www.zaproxy.org/docs/desktop/addons/regular-expression-tester/)
+Adds a dialogue to test regular expressions (with Pattern syntax) on a given input, accessible through the top level menu Tools > Regular Expression Tester and a context menu on HTTP messages.
+
+--Replacer (https://www.zaproxy.org/docs/desktop/addons/replacer/)
+The replacer is an easy way to replace strings in requests and responses.
+-Description (https://www.zaproxy.org/docs/desktop/addons/replacer/#description)
+-URL (https://www.zaproxy.org/docs/desktop/addons/replacer/#url)
+-MatchType (https://www.zaproxy.org/docs/desktop/addons/replacer/#match-type)
+-Request Header (will add if not present (https://www.zaproxy.org/docs/desktop/addons/replacer/#request-header-will-add-if-not-present)
+-Request Header String (https://www.zaproxy.org/docs/desktop/addons/replacer/#request-header-string)
+-Request Body String https://www.zaproxy.org/docs/desktop/addons/replacer/#request-body-string
+-Response Header (will add if not present) https://www.zaproxy.org/docs/desktop/addons/replacer/#response-header-will-add-if-not-present
+-Response Header String (https://www.zaproxy.org/docs/desktop/addons/replacer/#response-header-string)
+-Response Body String (https://www.zaproxy.org/docs/desktop/addons/replacer/#response-body-string)
+-Match String (https://www.zaproxy.org/docs/desktop/addons/replacer/#match-string)
+-Match Regex (https://www.zaproxy.org/docs/desktop/addons/replacer/#match-regex)
+-Replacement String (https://www.zaproxy.org/docs/desktop/addons/replacer/#replacement-string)
+-Enable (https://www.zaproxy.org/docs/desktop/addons/replacer/#enable)
+-Token Processing (https://www.zaproxy.org/docs/desktop/addons/replacer/#token-processing)
+-Initiators tab (https://www.zaproxy.org/docs/desktop/addons/replacer/#initiators-tab)
+
+
+--Report Generation (https://www.zaproxy.org/docs/desktop/addons/report-generation/)
+This add-on allows you to generate a variety of reports in a flexible and extensible way.
+-Generate Report Dialog
+-Scope Fields (https://www.zaproxy.org/docs/desktop/addons/report-generation/#scope-fields)
+  Report Title (https://www.zaproxy.org/docs/desktop/addons/report-generation/#report-title)
+  Report Name (https://www.zaproxy.org/docs/desktop/addons/report-generation/#report-name)
+  Report Directory (https://www.zaproxy.org/docs/desktop/addons/report-generation/#report-directory)
+  Description (https://www.zaproxy.org/docs/desktop/addons/report-generation/#description)
+  Contexts (https://www.zaproxy.org/docs/desktop/addons/report-generation/#contexts)
+  Sites (https://www.zaproxy.org/docs/desktop/addons/report-generation/#sites)
+  Generate If No Alerts (https://www.zaproxy.org/docs/desktop/addons/report-generation/#generate-if-no-alerts)
+  Display Report (https://www.zaproxy.org/docs/desktop/addons/report-generation/#display-report)
+-Template Fields (https://www.zaproxy.org/docs/desktop/addons/report-generation/#template-fields)
+  Template (https://www.zaproxy.org/docs/desktop/addons/report-generation/#template)
+  Theme (https://www.zaproxy.org/docs/desktop/addons/report-generation/#theme)
+  Sections (https://www.zaproxy.org/docs/desktop/addons/report-generation/#sections)
+-Filter Fields (https://www.zaproxy.org/docs/desktop/addons/report-generation/#filter-fields)
+  Include Risks (https://www.zaproxy.org/docs/desktop/addons/report-generation/#include-risks)
+  Include Confidences (https://www.zaproxy.org/docs/desktop/addons/report-generation/#include-confidences)
+-Options Fields (https://www.zaproxy.org/docs/desktop/addons/report-generation/#options-fields)
+  Report Name Pattern (https://www.zaproxy.org/docs/desktop/addons/report-generation/#report-name-pattern)
+  Template Directory (https://www.zaproxy.org/docs/desktop/addons/report-generation/#template-directory)
+
+--Requester Add-on (https://www.zaproxy.org/docs/desktop/addons/requester/)
+An add-on that allows to manually edit and send messages.
+
+
+--Support for Retesting alerts (https://www.zaproxy.org/docs/desktop/addons/retest/)
+The Retest add-on allows you to retest for the presence/absence of certain alerts in your web application.
+
+--Retire.js (https://www.zaproxy.org/docs/desktop/addons/retire.js/)
+This add-on includes a passive scan rule which implements checks provided by Retire.js in order to identify vulnerable or out-dated JavaScript packages.
+
+--Reveal (https://www.zaproxy.org/docs/desktop/addons/reveal/)
+Allows to show hidden fields and enable disabled fields.
+
+
+--Revisit (https://www.zaproxy.org/docs/desktop/addons/revisit/)
+The add-on allows you to instruct ZAP to return content from the ZAP history between specified dates rather than forwarding the requests to the site.
+  Enable Revisit (https://www.zaproxy.org/docs/desktop/addons/revisit/#enable-revisit)
+  Disable Revisit (https://www.zaproxy.org/docs/desktop/addons/revisit/#disable-revisit)
+-API  (https://www.zaproxy.org/docs/desktop/addons/revisit/#api)
+
+
+--Ruby Scripting (https://www.zaproxy.org/docs/desktop/addons/ruby-scripting/)
+The Ruby Scripting add-on allows you to integrate Ruby scripts in ZAP.
+
+--SAML Support (https://www.zaproxy.org/docs/desktop/addons/saml-support/)
+Allows to detect, show, edit, and fuzz SAML requests.
+
+--Script Console  (https://www.zaproxy.org/docs/desktop/addons/script-console/)
+The Script Console add-on allows you to run scripts that can be embedded within ZAP and can access internal ZAP data structures.
+  Script Types (https://www.zaproxy.org/docs/desktop/addons/script-console/#script-types)
+  Global Variables (https://www.zaproxy.org/docs/desktop/addons/script-console/#global-variables)
+  Script Variables (https://www.zaproxy.org/docs/desktop/addons/script-console/#script-variables)
+  Custom Global/Script Variables (https://www.zaproxy.org/docs/desktop/addons/script-console/#custom-globalscript-variables)
+
+--Selenium (https://www.zaproxy.org/docs/desktop/addons/selenium/)
+The Selenium add-on provides WebDrivers, for other add-ons, to invoke and remotely control web browsers. It’s also bundled the HtmlUnit web browser, an headless Java based web browser.
+  Supported Browsers (https://www.zaproxy.org/docs/desktop/addons/selenium/#supported-browsers)
+  Bundled WebDrivers (https://www.zaproxy.org/docs/desktop/addons/selenium/#bundled-webdrivers)
+
+--Sequence Scanner (https://www.zaproxy.org/docs/desktop/addons/sequence-scanner/)
+This add-on facilitates the recording and scanning sequences of requests. In some web applications it is necessary for particular events or pages to be accessed or completed in a certain order. By recording a sequence and then scanning it, it is possible to ensure such flows happen in an expected manner.
+-Creating Sequences (https://www.zaproxy.org/docs/desktop/addons/sequence-scanner/#creating-sequences)
+-Scanning (https://www.zaproxy.org/docs/desktop/addons/sequence-scanner/#scanning)
+
+
+--Server-Sent Events (https://www.zaproxy.org/docs/desktop/addons/server-sent-events/)
+Server-Sent Events can be used by web applications or web sites to setup a uni-directional (one-way) communication channel over a single TCP connection.
+
+
+--SOAP Support (https://www.zaproxy.org/docs/desktop/addons/soap-support/)
+This add-on imports and scans WSDL files containing SOAP endpoints.
+-Importing (https://www.zaproxy.org/docs/desktop/addons/soap-support/#importing)
+-Form Handler Add-on Support (https://www.zaproxy.org/docs/desktop/addons/soap-support/#form-handler-add-on-support)
+  Scanning (https://www.zaproxy.org/docs/desktop/addons/soap-support/#scanning)
+  Statistics (https://www.zaproxy.org/docs/desktop/addons/soap-support/#statistics)
+
+--Spider (https://www.zaproxy.org/docs/desktop/addons/spider/)
+The Spider is a tool that is used to automatically discover new resources (URLs) on a particular Site
+-HTML (https://www.zaproxy.org/docs/desktop/addons/spider/#html)
+-Robots.txt file (https://www.zaproxy.org/docs/desktop/addons/spider/#robotstxt-file)
+-sitemap.xml file (https://www.zaproxy.org/docs/desktop/addons/spider/#sitemapxml-file)
+-SVN metadata files (https://www.zaproxy.org/docs/desktop/addons/spider/#svn-metadata-files)
+-Git metadata files (https://www.zaproxy.org/docs/desktop/addons/spider/#git-metadata-files)
+-.DS_Store files  (https://www.zaproxy.org/docs/desktop/addons/spider/#ds_store-files)
+-OData Atom Format (https://www.zaproxy.org/docs/desktop/addons/spider/#odata-atom-format)
+-SVG Files (https://www.zaproxy.org/docs/desktop/addons/spider/#svg-files)
+-Non-HTML Text Response (https://www.zaproxy.org/docs/desktop/addons/spider/#non-html-text-response)
+-Non-Text Response (https://www.zaproxy.org/docs/desktop/addons/spider/#non-text-response)
+-Other Aspects (https://www.zaproxy.org/docs/desktop/addons/spider/#other-aspects)
+
+
+--SVN Digger Files (https://www.zaproxy.org/docs/desktop/addons/svn-digger-files/)
+Provides the SVN Digger files which can be used with ZAP forced browsing.
+
+--Tips and Tricks (https://www.zaproxy.org/docs/desktop/addons/tips-and-tricks/)
+This add-on adds a ‘help’ menu item which displays useful ZAP tips and tricks.
+-Full list of tips (https://www.zaproxy.org/docs/desktop/addons/tips-and-tricks/#full-list-of-tips)
+
+
+--Token Generation and Analysis (https://www.zaproxy.org/docs/desktop/addons/token-generator/)
+This add-on allows you to generate and analyse pseudo random tokens, such as those used for session handling or CSRF protection.
+
+--TreeTools (https://www.zaproxy.org/docs/desktop/addons/treetools/)
+Provides tools/functionality to enhance the Sites tree.
+
+--ViewState (https://www.zaproxy.org/docs/desktop/addons/viewstate/)
+Provides Request/Response panel views to decode and edit ASP/JSF ViewState.
+
+
+--Technology Detection Using Wappalyzer (https://www.zaproxy.org/docs/desktop/addons/technology-detection/)
+The Technology Detection add-on uses the Wappalyzer rules to detect the technologies used by applications.
+-The Technology Tab (https://www.zaproxy.org/docs/desktop/addons/technology-detection/#the-technology-tab)
+Reporting (https://www.zaproxy.org/docs/desktop/addons/technology-detection/#reporting)
+
+
+--WebSockets (https://www.zaproxy.org/docs/desktop/addons/websockets/)
+WebSockets can be used by web applications or web sites to setup a bi-directional (two-way), full duplex communication channel over a single TCP connection.
+It features a lightweight protocol, allowing developers to realize realtime use cases. WebSockets do also provide an alternative to heavy use of Ajax, HTTP Long Polling or Comet.
+
+
+--Windows WebDrivers (https://www.zaproxy.org/docs/desktop/addons/windows-webdrivers/)
+The Windows WebDrivers add-on provides WebDrivers for the following browsers:
+  Chrome - ChromeDriver 110.0.5481.77
+  Firefox - geckodriver 0.32.2
+
+--Zest (https://www.zaproxy.org/docs/desktop/addons/zest/)
+-Creating Zest scripts (https://www.zaproxy.org/docs/desktop/addons/zest/#creating-zest-scripts)
+  Record a new Zest script Button (https://www.zaproxy.org/docs/desktop/addons/zest/#record-a-new-zest-script-button)
+  New Script Button (https://www.zaproxy.org/docs/desktop/addons/zest/#new-script-button)
+  Right clicking a Zest template (https://www.zaproxy.org/docs/desktop/addons/zest/#right-clicking-a-zest-template)
+  Right clicking requests (https://www.zaproxy.org/docs/desktop/addons/zest/#right-clicking-requests)
+  Plug-n-Hack  (https://www.zaproxy.org/docs/desktop/addons/zest/#plug-n-hack)
+-Editing Zest scripts  (https://www.zaproxy.org/docs/desktop/addons/zest/#editing-zest-scripts)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
